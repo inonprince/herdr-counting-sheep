@@ -1,0 +1,14 @@
+{
+  "name": "herdr-counting-sheep",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Visible sidebar indexes and last-item navigation for Herdr.",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
