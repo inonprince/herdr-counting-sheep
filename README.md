@@ -67,7 +67,7 @@ command = "inon.counting-sheep.last-tab"
 description = "focus last tab"
 
 [[keys.command]]
-key = "prefix+shift+0"
+key = "prefix+)"
 type = "plugin_action"
 command = "inon.counting-sheep.last-workspace"
 description = "focus last Space"
@@ -78,6 +78,9 @@ type = "plugin_action"
 command = "inon.counting-sheep.last-agent"
 description = "focus last Agent"
 ```
+
+Use `prefix+)` for the Space shortcut because terminals report
+<kbd>Shift</kbd>+<kbd>0</kbd> as the `)` character in prefix mode.
 
 Run `herdr server reload-config` after changing `config.toml`.
 
